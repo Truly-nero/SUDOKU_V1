@@ -18,24 +18,24 @@
     <ClCompile Include="main.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="celda.cpp">
-      <Filter>Archivos de encabezado</Filter>
+    <ClCompile Include="Celda.cpp">
+      <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="tablero.cpp">
-      <Filter>Archivos de encabezado</Filter>
+    <ClCompile Include="ReglasSudoku.cpp">
+      <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="reglasSudoku.cpp">
-      <Filter>Archivos de encabezado</Filter>
+    <ClCompile Include="Tablero.cpp">
+      <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="celdas.h">
+    <ClInclude Include="Celda.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="tablero.h">
+    <ClInclude Include="Tablero.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="reglasSudoku.h">
+    <ClInclude Include="ReglasSudoku.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>

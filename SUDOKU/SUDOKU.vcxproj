@@ -123,15 +123,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="celda.cpp" />
+    <ClCompile Include="Celda.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="reglasSudoku.cpp" />
-    <ClCompile Include="tablero.cpp" />
+    <ClCompile Include="ReglasSudoku.cpp" />
+    <ClCompile Include="Tablero.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="celdas.h" />
-    <ClInclude Include="reglasSudoku.h" />
-    <ClInclude Include="tablero.h" />
+    <ClInclude Include="Celda.h" />
+    <ClInclude Include="ReglasSudoku.h" />
+    <ClInclude Include="Tablero.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
