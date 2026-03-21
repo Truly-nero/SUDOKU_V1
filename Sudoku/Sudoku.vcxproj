@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{81d69ea8-1f17-4053-9f81-9038fa564f89}</ProjectGuid>
+    <ProjectGuid>{78B41525-AA40-484B-8458-5F60CCE95D78}</ProjectGuid>
     <RootNamespace>Sudoku</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>

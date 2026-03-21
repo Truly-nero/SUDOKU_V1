@@ -6,9 +6,9 @@ Celda::Celda() {
 	valor = 0;
 	estado = VACIA;
 }
-Celda::Celda(int v, tEstado est) {
+Celda::Celda(int v, tEstado estado) {
 	valor = v;
-	estado = est;
+	estado = estado;
 }
 /* métodos de consulta */
 bool Celda::es_vacia() {

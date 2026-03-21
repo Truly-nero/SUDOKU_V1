@@ -17,7 +17,7 @@ Celda ReglasSudoku::dame_celda(const int f, const int c) {
 }
 
 bool ReglasSudoku::terminado() {
-
+	
 }
 
 bool ReglasSudoku::bloqueo() {
@@ -44,11 +44,11 @@ bool ReglasSudoku::es_valor_posible(const int f, const int c, const int v) {
 }
 
 /* modificadoras */
-bool ReglasSudoku::pon_valor(const int f, const int c, const int& v) {
+bool ReglasSudoku::pon_valor(const int f, const int c, const int &v) {
 	Celda celda = tab.dame_celda(f, c);
 	bool correcto = false;
 
-	if (posicion_valida(f, c) && valor_valido(v) && celda.es_vacia() && es_valor_posible(f, c, v)) {
+	if (posicion_valida(f,c) && valor_valido(v) && celda.es_vacia() && es_valor_posible(f,c,v)) {
 		correcto = true;
 
 		celda.set_valor(v);
@@ -90,6 +90,6 @@ bool ReglasSudoku::posicion_valida(const int f, const int c) {
 	return (f >= 0 && f < dim && c >= 0 && c < dim);
 }
 
-bool ReglasSudoku::valor_valido(const int v) {
+bool ReglasSudoku::valor_valido(const int v){
 	return (v >= 1 && v <= tab.dame_dim());
 }

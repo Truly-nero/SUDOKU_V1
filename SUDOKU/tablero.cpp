@@ -11,7 +11,7 @@ Tablero::Tablero() {
 }
 
 Tablero::Tablero(const int d) {
-    dim = d;
+	dim = d;
 
     for (int i = 0; i < dim; i++) {
         for (int j = 0; j < dim; j++) {

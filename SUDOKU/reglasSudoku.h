@@ -12,7 +12,7 @@ private:
 		int c;
 	}tPosicion;
 
-	tPosicion bloqueadas[MAX_DIM * MAX_DIM];
+	tPosicion bloqueadas[MAX_DIM*MAX_DIM];
 	int num_bloq;
 
 	bool posicion_valida(const int f, const int c);
